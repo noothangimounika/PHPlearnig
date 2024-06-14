@@ -1,4 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      form{
+        padding: 10px;
+        margin-top: 20px;
+      }
+      input{
+        margin-top: 20px;
+      }
+    </style>
+</head>
+<body>
+   <!--
+    <form action="index.php" method="post">
+        <label >username</label>
+        <input type="text" name="username"><br>
+
+        <label>Password</label>
+        <input type="password" name="password"><br>
+        <input type="submit" value="Login"><br>
+    </form>  -->
+    <!--
+    <form action="index.php" method="post">
+        <label >quantity</label>
+        <input type="text" name="quantity"><br>
+        <input type="submit" value="total"><br>
+    </form> -->
+
+    <!--
+    <form action="index.php" method="post">
+      <label >x</label>
+      <input type="text" name="x"><br>
+      
+      <input type="submit" value="total">
+
+    </form> -->
+</body>
+</html>
 <?php
+/*
+$x=$_POST["x"];
+
+$total=null;
+
+#$total=abs($x);
+#$total=round($x);
+#$total=floor($x);
+#$total=ceil($x);
+#$total=pow($x,$y);
+$total=rand(1,6);
+*/
+/*
+echo $total;
+
+
+ $price=10;
+ $item="Chacolate";
+ $quantity=$_POST["quantity"];
+ $total=null;
+ $total=$quantity*$price;
+ echo "You have order $quantity  $item  <br> ";
+ echo "Your total ₹₹ $total  ";
+ */
+/*
+echo "{$_POST["username"]  }";
+echo "<br>";
+echo "{$_POST["password"] }";
+*/
+/*
 echo " <h2>My first PHP page</h2>"  ;
 echo "Hello PHP <br> <br>"; 
 ECHO "hello <br> <br> ";
@@ -103,4 +176,136 @@ function myfun(){
   $colors=array("pink " ,"blue " ,"yellow " ,"green ", "<br>","red " );
   var_dump($colors);
 
+
+ echo"<br>";
+
+  $firstname="mounika";
+  echo "hello $firstname ";
+
+  #string datatypes
+
+  $name="Mounika";
+  $food="Pizza";
+  $mail="noothangimounika@gmail.com";
+  $total=null;
+
+  echo "Hello  $name <br>";
+  echo " i don't like  $food <br>";
+  echo "your gmail is $mail <br>";
+
+
+  #int datatypes
+  $gae=24;
+  $users=6;
+  $quanty=6;
+
+
+  echo " Your age is  $gae<br>";
+  echo "In online  $users there<br>";
+  echo " You purchase the $quanty items<br>";
+
+  #float datatypes
+  $gpa=6.6;
+  $price=66.66;
+  $tax_rate=23.65;
+
+  echo "You got $gpa<br>";
+  echo " Your total bill is : $price<br>";
+  echo "Your home tax is :  $tax_rate<br>";
+
+  #boolean datatypes
+  $employeed=true;
+  $online=true;
+  $for_sale=false;  
+
+  echo "is there employee availble : $employeed<br>";
+  echo "is employees are online :  $online<br>";
+  echo "is house is sale : $for_sale<br> <br> <br>";
+ 
+echo "you ordered $quanty small $food <br> ";
+$total=$quanty*$price;
+echo "your total bill is : $total <br>  <br>  <br>";
+
+//arithmetic operators
+
+$a=10;
+$b=5;
+$z=$a+$b;
+echo "addtion is : $z <br>";
+
+$z=$a-$b;
+echo "substration is : $z <br>";
+
+$z=$a*$b;
+echo "multification is : $z <br>";
+
+$z=$a**$b;
+echo "power of value is : $z <br>";
+
+$z=$a/$b;
+echo "divsion is : $z <br>";
+
+$z=$a%$b;
+echo "modulus is : $z <br> <br>  <br>";
+
+//increment/decrement
+$count=0;
+//$count ++;
+//echo "Increment value is : $count <br>";
+$count--;
+echo "decrement  value is : $count <br>";
+
+$value=10;
+//$value +=2;
+$value -=2;
+//echo  "Increment value is : $value <br>";
+echo  "Increment value is : $value <br>";
+*/
+
+ $age=18;
+ if($age >=18)
+ {
+   echo "you are eligible for vote ";
+ }
+ elseif($age <=100){
+    echo "please enter valid age";
+ }
+else{
+  echo "you are not eligible for vote you have 18+ must";
+}
+echo"<br>";
+
+$temp=30;
+
+if($temp<=0 && $temp>=30){
+  echo "the weather is good";
+}
+else{
+  echo "the weather is not good";
+}
+
+echo"<br>";
+$temp1=40;
+
+if($temp1<=0 || $temp1>=30){
+  echo "the weather is good";
+}
+else{
+  echo "the weather is not good";
+}
+echo"<br>";
+
+echo"<br>";
+$temp2=30;
+
+if($temp2<=0 || $temp2>=30){
+  echo "the weather is good";
+}
+else{
+  echo "the weather is not good";
+}
+echo"<br>";
+
 ?>
+
+
